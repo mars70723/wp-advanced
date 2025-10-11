@@ -19,8 +19,9 @@
   <nav class='site-nav'>
     <?php
       wp_nav_menu(array(
-        'theme-location'=>'primary',
-        'menu_class'=>'main-manu'
+        'theme_location'=>'primary',
+        'menu_class'=>'main-menu',
+        'container'=>false
       ));
     ?>
   </nav>
