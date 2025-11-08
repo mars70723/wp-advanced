@@ -1,125 +1,41 @@
-<?php
- // Template Name: About Us
+<?php  
+// Template Name: About Us
 ?>
- 
- <?php get_header(); ?>
 
-<a href="#" class="block rounded-md border border-gray-300 p-4 shadow-sm sm:p-6">
-  <div class="sm:flex sm:justify-between sm:gap-4 lg:gap-6">
-    <div class="sm:order-last sm:shrink-0">
-      <img
-        alt=""
-        src="https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80"
-        class="size-16 rounded-full object-cover sm:size-[72px]"
-      />
-    </div>
 
-    <div class="mt-4 sm:mt-0">
-      <h3 class="text-lg font-medium text-pretty text-gray-900">
-        How I built my first website with Nuxt, Tailwind CSS and Vercel
-      </h3>
+<?php get_header(); ?>
 
-      <p class="mt-1 text-sm text-gray-700">By John Doe</p>
 
-      <p class="mt-4 line-clamp-2 text-sm text-pretty text-gray-700">
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. At velit illum provident a, ipsa
-        maiores deleniti consectetur nobis et eaque.
-      </p>
-    </div>
-  </div>
+<section>
+  <div class="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 lg:px-8">
+    <div class="grid grid-cols-1 gap-4 md:grid-cols-2 md:items-center md:gap-8">
+      <div>
+        <div class="max-w-prose md:max-w-none">
+          <h2 class="text-2xl font-semibold text-gray-900 sm:text-3xl">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          </h2>
 
-  <dl class="mt-6 flex gap-4 lg:gap-6">
-    <div>
-      <dt class="text-sm font-medium text-gray-700">Published on</dt>
 
-      <dd class="text-xs text-gray-700">31/06/2025</dd>
-    </div>
+          <p class="mt-4 text-gray-700">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur doloremque saepe
+            architecto maiores repudiandae amet perferendis repellendus, reprehenderit voluptas
+            sequi.
+          </p>
+        </div>
+      </div>
 
-    <div>
-      <dt class="text-sm font-medium text-gray-700">Reading time</dt>
 
-      <dd class="text-xs text-gray-700">12 minutes</dd>
-    </div>
-  </dl>
-</a>
-
-<a href="#" class="block rounded-md border border-gray-300 p-4 shadow-sm sm:p-6">
-  <div class="sm:flex sm:justify-between sm:gap-4 lg:gap-6">
-    <div class="sm:order-last sm:shrink-0">
-      <img
-        alt=""
-        src="https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80"
-        class="size-16 rounded-full object-cover sm:size-[72px]"
-      />
-    </div>
-
-    <div class="mt-4 sm:mt-0">
-      <h3 class="text-lg font-medium text-pretty text-gray-900">
-        How I built my first website with Nuxt, Tailwind CSS and Vercel
-      </h3>
-
-      <p class="mt-1 text-sm text-gray-700">By John Doe</p>
-
-      <p class="mt-4 line-clamp-2 text-sm text-pretty text-gray-700">
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. At velit illum provident a, ipsa
-        maiores deleniti consectetur nobis et eaque.
-      </p>
+      <div>
+        <img
+          src="https://images.unsplash.com/photo-1731690415686-e68f78e2b5bd?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          class="rounded"
+          alt=""
+        />
+      </div>
     </div>
   </div>
-
-  <dl class="mt-6 flex gap-4 lg:gap-6">
-    <div>
-      <dt class="text-sm font-medium text-gray-700">Published on</dt>
-
-      <dd class="text-xs text-gray-700">31/06/2025</dd>
-    </div>
-
-    <div>
-      <dt class="text-sm font-medium text-gray-700">Reading time</dt>
-
-      <dd class="text-xs text-gray-700">12 minutes</dd>
-    </div>
-  </dl>
-</a>
-
-<a href="#" class="block rounded-md border border-gray-300 p-4 shadow-sm sm:p-6">
-  <div class="sm:flex sm:justify-between sm:gap-4 lg:gap-6">
-    <div class="sm:order-last sm:shrink-0">
-      <img
-        alt=""
-        src="https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80"
-        class="size-16 rounded-full object-cover sm:size-[72px]"
-      />
-    </div>
-
-    <div class="mt-4 sm:mt-0">
-      <h3 class="text-lg font-medium text-pretty text-gray-900">
-        How I built my first website with Nuxt, Tailwind CSS and Vercel
-      </h3>
-
-      <p class="mt-1 text-sm text-gray-700">By John Doe</p>
-
-      <p class="mt-4 line-clamp-2 text-sm text-pretty text-gray-700">
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. At velit illum provident a, ipsa
-        maiores deleniti consectetur nobis et eaque.
-      </p>
-    </div>
-  </div>
-
-  <dl class="mt-6 flex gap-4 lg:gap-6">
-    <div>
-      <dt class="text-sm font-medium text-gray-700">Published on</dt>
-
-      <dd class="text-xs text-gray-700">31/06/2025</dd>
-    </div>
-
-    <div>
-      <dt class="text-sm font-medium text-gray-700">Reading time</dt>
-
-      <dd class="text-xs text-gray-700">12 minutes</dd>
-    </div>
-  </dl>
-</a>
+</section>
 
 
-<?php get_footer();?>
+
+<?php get_footer(); ?>
